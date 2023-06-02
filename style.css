@@ -1,0 +1,23 @@
+.mainFrame{
+    border: 6px solid black;
+    background-color:lightskyblue;
+    border-radius: 25px;
+    height: auto;
+    /* margin-right:630px; */
+    width:30%;
+    padding:0.5px ;
+    margin-left:30%;
+}
+.screenBar{
+    border: solid red;
+    background-color:white;
+    border-radius:10px;
+    padding:10%;
+    margin:10px;
+}
+
+.rowOne, .rowTwo, .rowThree,.rowFour{
+    padding:3%;
+    display: flex;
+    justify-content:space-between;
+}
