@@ -21,3 +21,36 @@
     display: flex;
     justify-content:space-between;
 }
+
+/* 
+/* body {
+    margin: 60px;
+}
+.main {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    background: darkgray;
+    justify-content: center;
+    align-items: center;
+
+}
+.screen {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+}
+.buttons {
+    width: 20px;
+    height:30px;
+}
+.buttonsLeft {
+    display: flex;
+    flex-direction: column;
+}
+.buttonsRight {
+    display: flex;
+    flex-direction: column;
+} */                  
+
+*/

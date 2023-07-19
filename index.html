@@ -10,48 +10,41 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- Calculator -->
+        <!-- Calculator APP -->
         <!-- MainFrame-->
-        <div class="mainFrame">
-        
+      <div class="mainFrame">       
           <!-- screenBar -->
-            <div class="screenBar">
-
-            </div>
-
-          <!-- 4 Figure rows, with 4 buttons each  -->
-           <div class="rowOne">
-                <button onclick="upLoadToScreen('7')" >7</button>
+        <div class="screenBar"> 0 </div>
+          <!-- 4 Numbers and symbols rows, with 4 buttons each  -->
+          <div class="rowOne">
+                <button onclick="upLoadToScreen('7')">7</button>
                 <button onclick="upLoadToScreen('8')">8</button>
                 <button onclick="upLoadToScreen('9')">9</button>
                 <button onclick="upLoadToScreen('/')">/</button>
-           </div>
+          </div>
 
-           <div class="rowTwo">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>*</button>
-           </div>
+          <div class="rowTwo">
+            <button onclick="upLoadToScreen('4')">4</button>
+            <button onclick="upLoadToScreen('5')">5</button>
+            <button onclick="upLoadToScreen('6')">6</button>
+            <button onclick="upLoadToScreen('*')">*</button>
+          </div>
 
-           <div class="rowThree">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button>
-           </div>
+          <div class="rowThree">
+            <button onclick="upLoadToScreen('1')">1</button>
+            <button onclick="upLoadToScreen('2')">2</button>
+            <button onclick="upLoadToScreen('3')">3</button>
+            <button onclick="upLoadToScreen('7')">-</button>
+          </div>
 
-           <div class="rowFour">
-            <button>0</button>
+          <div class="rowFour">
+            <button onclick="upLoadToScreen('0')" >0</button>
             <button onclick="clearScreenBar('CLR')">CLR</button>
-            <button>+</button>
-            <button>=</button>
-           </div>
-
-      
-
-
+            <button onclick="upLoadToScreen('+')" >+</button>
+            <button onclick="upLoadToScreen('=')" >=</button>
+          </div>
         </div>
+      </div>
         
         
 
